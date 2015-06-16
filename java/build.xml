@@ -27,7 +27,7 @@
 
 	<!-- compile -->
 	<target name="compile" depends="init">
-		<javac target="1.6" source="1.6" debug="on" srcdir="${api.dir}/src/" destdir="build/${api.dir}/bin/" />
+		<javac target="1.6" source="1.6" debug="on" srcdir="${api.dir}/src/" destdir="build/${api.dir}/bin/" includeantruntime="true" />
 	</target>
 	
 	<!-- package -->
